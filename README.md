@@ -11,7 +11,7 @@ This little project isn't intended for serious use - the reasons for creating it
 Quick Start
 -----------
 
-You need autotools (autoconf version 2.69 or better) and the Check C unit testing library (I'm using 0.9.10).
+You need autotools (autoconf version 2.69 or better) and the [Check](http://check.sourceforge.net "Check unit testing library for C") C unit testing library (I'm using 0.9.10).
 
 Then type the following into the terminal from the project directory, to get autotools to generate all the templates that it needs:
 
@@ -20,6 +20,7 @@ Then type the following into the terminal from the project directory, to get aut
 Assuming that goes well, type the following commands to build the project:
 
 `./configure`
+
 `make`
 
 If you want to run the unit tests, type the following:
